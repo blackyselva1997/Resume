@@ -1,0 +1,630 @@
+/* Media Query 280px */
+
+@media (min-width: 280px) {
+    /*Header Section*/
+    .hed-col1 h1 {
+        font-size: 18px;
+    }
+
+    #burger {
+        display: block;
+        color: #fff;
+    }
+
+    .nav li {
+        display: none;
+    }
+
+    .nav a {
+        font-size: 12px;
+    }
+
+    .line .nav li {
+        display: block;
+    }
+
+    /*Home section */
+    .home-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-col1 {
+        width: 100%;
+    }
+
+    .home-col1 h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .home-col1 h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .home-col2 {
+        width: 100%;
+        padding: 30px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-col2 button {
+        width: 100px;
+        height: 50px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-col3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*About Section*/
+    .about-con span {
+        font-size: 15px;
+    }
+
+    .about-con span h2::after {
+        width: 100px;
+        left: calc(50% - 50px);
+        height: 2px;
+    }
+
+    .about-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-col1 {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .about-profile h3 {
+        font-size: 15px;
+    }
+
+    .about-profile span {
+        font-size: 16px;
+    }
+
+    .about-col2 {
+        width: 100%;
+    }
+
+    .about-para {
+        font-size: 16px;
+    }
+
+    .about-box2 h1 {
+        font-size: 22px;
+    }
+
+    .about-box2 h2 {
+        font-size: 20px;
+    }
+
+    .about-box2 p {
+        font-size: 16px;
+    }
+
+    /*skills Section*/
+
+    .skill-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-col {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /*Project Section*/
+
+    .port-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .port-col {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #v-pills-tab {
+        width: 100%;
+    }
+    
+    #v-pills-tabContent {
+        width: 100%;
+    }
+
+    #v-pills-home {
+        display: block;
+    }
+
+    .port-a {
+        font-size: 15px;
+        top: 20%;
+        left: 10%;
+    }
+
+    .port-a h3 {
+        font-size: 18px;
+    }
+
+    .port-a1 {
+        font-size: 15px;
+        top: 20%;
+        left: 10%;
+    }
+
+    .port-a1 h3 {
+        font-size: 18px;
+    }
+
+    .port-a2 {
+        font-size: 15px;
+        top: 30%;
+        left: 5%;
+    }
+
+    .port-a2 h3 {
+        font-size: 18px;
+    }
+
+    .port-a2 p {
+        font-size: 10px;
+    }
+
+    #port-close iconify-icon {
+        font-size: 18px;
+    }
+
+    #port-close1 {
+        font-size: 18px;
+    }
+
+    #port-close2 {
+        font-size: 18px;
+    }
+
+    /*Contact Section*/
+
+    .con-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .con-col {
+        width: 100%;
+        gap: 20px;
+    }
+
+    /*Footer Section*/
+
+    .footer-sec span {
+       display: block;
+    }
+}
+
+/* Media Query 600px */
+
+@media (min-width: 600px) {
+    /*Header Section*/
+
+    .hed-col2 ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .hed-col2 li {
+        padding: 10px 10px;
+    }
+
+    #burger {
+        display: none;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    .nav li {
+        display: block;
+    }
+    /*Home section */
+    .home-row {
+        display: flex;
+    }
+
+    .home-col1 {
+        width: 60%;
+    }
+
+    .home-col1 h1 {
+        font-size: 20px;
+    }
+
+    .home-col1 h3 {
+        font-size: 18px;
+    }
+
+    .home-col2 {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .home-col2 button {
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-col3 {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    /*About Section*/
+
+    .about-con span {
+        font-size: 18px;
+    }
+
+    .about-con span h2::after {
+        width: 120px;
+        left: calc(50% - 60px);
+        height: 2px;
+    }
+
+    .about-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-col1 {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .about-profile h3 {
+        font-size: 18px;
+    }
+
+    .about-profile span {
+        font-size: 19px;
+    }
+
+    .about-col2 {
+        width: 100%;
+    }
+
+    .about-para {
+        font-size: 18px;
+    }
+
+    .about-box2 h1 {
+        font-size: 22px;
+    }
+
+    .about-box2 h2 {
+        font-size: 20px;
+    }
+
+    .about-box2 p {
+        font-size: 18px;
+    }
+
+    /*skills Section*/
+
+    .skill-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-col {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    /*Project Section*/
+
+    .port-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .port-col {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #v-pills-tab {
+        width: 100%;
+    }
+    
+    #v-pills-tabContent {
+        width: 100%;
+    }
+
+    #v-pills-home {
+        display: block;
+    }
+
+    .port-a {
+        font-size: 20px;
+        top: 30%;
+        left: 10%;
+    }
+
+    .port-a1 {
+        font-size: 20px;
+        top: 30%;
+        left: 10%;
+    }
+
+    .port-a2 {
+        font-size: 20px;
+        top: 30%;
+        left: 5%;
+    }
+
+    /*Contact Section*/
+
+    .con-box {
+        width: 48%;
+    }
+
+    .con-bar {
+        aspect-ratio: 4/4;
+    }
+
+    /*Footer Section*/
+
+    .footer-sec span {
+       display: inline;
+    }
+}
+
+/* Media Query 1020px */
+
+@media (min-width: 1020px) {
+    /* Header Section */
+
+    .hed-col2 ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .hed-col2 li {
+        padding: 10px 20px;
+    }
+
+    #burger {
+        display: none;
+    }
+    /*Home section */
+    .home-row {
+        display: flex;
+    }
+
+    .home-col1 {
+        width: 60%;
+        display: flex;
+    }
+
+    .home-col1 h1 {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .home-col1 h3 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .home-col2 {
+        width: 100%;
+        padding: 30px 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .home-col2 button {
+        width: 200px;
+        height: 100px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-col3 {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    /*About Section*/
+
+    .about-con span {
+        font-size: 20px;
+    }
+
+    .about-con span h2::after {
+        width: 120px;
+        left: calc(50% - 60px);
+        height: 2px;
+    }
+
+    .about-row {
+        display: flex;
+    }
+
+    .about-col1 {
+        width: 50%;
+        padding-top: 30px;
+    }
+
+    .about-profile h3 {
+        font-size: 18px;
+    }
+
+    .about-profile span {
+        font-size: 19px;
+    }
+
+    .about-col2 {
+        width: 50%;
+    }
+
+    .about-para {
+        font-size: 18px;
+    }
+
+    .about-box2 h1 {
+        font-size: 22px;
+    }
+
+    .about-box2 h2 {
+        font-size: 20px;
+    }
+
+    .about-box2 p {
+        font-size: 18px;
+    }
+
+    /*skills Section*/
+
+    .skill-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skill-col {
+        width: 33.3%;
+        padding: 10px 0;
+    }
+
+    /*Project Section*/
+
+    .port-row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .port-col {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #v-pills-tab {
+        width: 30%;
+    }
+    
+    #v-pills-tabContent {
+        width: 67%;
+    }
+
+    #v-pills-home {
+        display: flex;
+    }
+
+    .port-a {
+        font-size: 30px;
+        top: 30%;
+        left: 25%;
+    }
+
+    .port-a h3 {
+        font-size: 30px;
+    }
+
+    .port-a1 {
+        font-size: 30px;
+        top: 30%;
+        left: 15%;
+    }
+
+    .port-a1 h3 {
+        font-size: 30px;
+    }
+
+    .port-a2 {
+        font-size: 30px;
+        top: 30%;
+        left: 10%;
+    }
+
+    .port-a2 h3 {
+        font-size: 30px;
+    }
+
+    .port-a2 p {
+        font-size: 20px;
+    }
+
+    #port-close iconify-icon {
+        font-size: 30px;
+    }
+
+    #port-close1 iconify-icon {
+        font-size: 30px;
+    }
+
+    #port-close2 iconify-icon {
+        font-size: 30px;
+    }
+
+    #port-close1 {
+        font-size: 30px;
+    }
+
+    #port-close2 {
+        font-size: 30px;
+    }
+
+    /*Contact Section*/
+
+    .con-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .con-col {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1;
+    }
+
+    .con-box {
+        width: 20%;
+    }
+
+    .con-bar {
+        width: 100%;
+        aspect-ratio: 4/4;
+    }
+
+    /*Footer Section*/
+
+    .footer-sec span {
+       display: inline;
+    }
+}
