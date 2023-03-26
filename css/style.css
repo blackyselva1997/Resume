@@ -377,7 +377,7 @@ body {
 /*Skills Section*/
 
 .skill-sec {
-    /* background-color: #fff; */
+    background-color: #000;
     padding: 70px 0 90px 0;
     overflow: hidden;
 }
@@ -412,7 +412,8 @@ body {
     left: 0;
     width: 20px;
     height: 100%;
-    background: linear-gradient(#fff, #fff, #e3e3e3);
+    /* background: linear-gradient(#fff, #fff, #e3e3e3); */
+    background: linear-gradient(var(--secondary), var(--BG-primary));
     filter: blur(1px);
     z-index: 1;
 }
@@ -424,14 +425,15 @@ body {
     right: -1px;
     width: 20px;
     height: 100%;
-    background: #9d9d9d;
+    /* background: #9d9d9d; */
+    background: var(--BG-primary);
     filter: blur(1px);
     z-index: 1;
 }
 
 .skill-sec span h1 {
     text-align: center;
-    color: #4e4e4e;
+    color: var(--primary);
     font-size: 25px;
     width: 100%;
     font-weight: 700;
@@ -442,7 +444,8 @@ body {
 .skill-sec span h1::after {
     content: "";
     display: block;
-    background-color: #3f3e3e85;
+    /* background-color: #3f3e3e85; */
+    background-color: #fff;
     height: 2px;
     width: 70px;
     bottom: 0;
@@ -454,7 +457,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #eee;
+    /* background: #eee; */
+    background: var(--BG-primary);
 }
 
 .skill-shadow::before {
@@ -464,7 +468,8 @@ body {
     left: calc(100% + 5px);
     width: 100%;
     height: 200%;
-    background: linear-gradient(rgba(0, 0, 0, 0.075), transparent);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.075), transparent); */
+    background: linear-gradient(#2e0c2e, transparent);
     transform: skewX(45deg);
 }
 
@@ -475,7 +480,8 @@ body {
     left: calc(100% + 15px);
     width: 100%;
     height: 200%;
-    background: linear-gradient(rgba(0, 0, 0, 0.075), transparent);
+    /* background: linear-gradient(rgba(0, 0, 0, 0.075), transparent); */
+    background: linear-gradient(#2e0c2e, transparent);
     transform: skewX(45deg);
 }
 
@@ -483,12 +489,13 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#dbdae1, #a3aaba);
+    /* background: linear-gradient(#dbdae1, #a3aaba); */
+    background: linear-gradient(var(--BG-primary), var(--BG-secondary));
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
         15px 15px 15px rgba(0, 0, 0, 0.1),
         20px 20px 20px rgba(0, 0, 0, 0.1),
         50px 50px 50px rgba(0, 0, 0, 0.1),
-        inset 3px 3px 2px #fff;
+        inset 3px 3px 2px var(--BG-primary);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,7 +512,8 @@ body {
     content: attr(data-text);
     position: absolute;
     inset: 20px;
-    background: #555;
+    /* background: #555; */
+    background: var(--BG-secondary);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -532,7 +540,8 @@ svg circle {
 }
 
 circle:nth-child(2) {
-    stroke: #555;
+    /* stroke: #555; */
+    stroke: var(--primary);
     stroke-dasharray: 440;
     stroke-dashoffset: calc(440 - (440 * var(--num)) / 100);
     opacity: 0;
@@ -575,7 +584,8 @@ circle:nth-child(2) {
     transform: translateX(-50%);
     width: 14px;
     height: 14px;
-    background: #555;
+    /* background: #555; */
+    background: var(--primary);
     border-radius: 50%;
 }
 
@@ -589,7 +599,8 @@ circle:nth-child(2) {
 
 .number h2 {
     font-size: 1.5em;
-    color: #555;
+    /* color: #555; */
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -622,7 +633,7 @@ circle:nth-child(2) {
 /*Portfolio Section*/
 
 .port-sec {
-    /* background: #f5f5f5; */
+    background: #000;
 }
 
 .port-con {
@@ -642,7 +653,7 @@ circle:nth-child(2) {
 }
 
 .port-box1 {
-    box-shadow: 0 0 15px 0 #4e4e4e;
+    box-shadow: 0 0 15px 0 var(--secondary);
     border-radius: 5px;
 }
 
@@ -656,7 +667,7 @@ circle:nth-child(2) {
     text-align: center;
     font-weight: 700;
     font-size: 25px;
-    color: #4e4e4e;
+    color: var(--primary);
     width: 100%;
     position: relative;
     padding: 10px 0;
@@ -666,7 +677,7 @@ circle:nth-child(2) {
     content: "";
     width: 90px;
     height: 2px;
-    background-color: #3f3e3e85;
+    background-color: #fff;
     bottom: 0;
     left: calc(50% - 48px);
     position: absolute;
@@ -706,7 +717,7 @@ circle:nth-child(2) {
 }
 
 .port-col {
-    width: 33.3%;
+    width: 100% !important;
 }
 
 .port-box1 {
@@ -718,7 +729,7 @@ circle:nth-child(2) {
 }
 
 .nav-pills .nav-link.active {
-    background-color: #6c757d !important;
+    background-color: var(--BG-primary) !important;
 }
 
 .nav-pills .nav-link {
@@ -735,6 +746,7 @@ circle:nth-child(2) {
     top: 0;
     font-size: 30px;
     background-color: #6c757d60;
+    color: var(--secondary);
     width: 100%;
     height: 100%;
     display: flex;
@@ -795,7 +807,7 @@ circle:nth-child(2) {
 }
 
 #port-close iconify-icon:hover {
-    color: #3f3e3e;
+    color: var(--BG-primary);
     cursor: pointer;
 }
 
