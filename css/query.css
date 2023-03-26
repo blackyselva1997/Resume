@@ -1,32 +1,12 @@
 /* Media Query 280px */
 
 @media (min-width: 280px) {
-    /*Header Section*/
-    .hed-col1 h1 {
-        font-size: 18px;
-    }
-
-    #burger {
-        display: block;
-        color: #fff;
-    }
-
-    .nav li {
-        display: none;
-    }
-
-    .nav a {
-        font-size: 12px;
-    }
-
-    .line .nav li {
-        display: block;
-    }
 
     /*Home section */
     .home-row {
         display: flex;
         flex-wrap: wrap;
+        padding: 50px 0;
     }
 
     .home-col1 {
@@ -38,8 +18,12 @@
         text-align: center;
     }
 
-    .home-col1 h3 {
-        font-size: 18px;
+    .home-col1 .multi-text {
+    font-size: 20px;
+    }
+
+    .home-col1 span {
+        font-size: 20px;
         text-align: center;
     }
 
@@ -48,6 +32,7 @@
         padding: 30px 0;
         display: flex;
         justify-content: center;
+        margin: 50px 0;
     }
 
     .home-col2 button {
@@ -58,11 +43,18 @@
         justify-content: center;
         align-items: center;
     }
-    
+
+    .home-col2 a span {
+        font-size: 20px;
+    }
+
     .home-col3 {
-        width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .home-col3 a {
+        font-size: 20px;
     }
 
     /*About Section*/
@@ -141,7 +133,7 @@
     #v-pills-tab {
         width: 100%;
     }
-    
+
     #v-pills-tabContent {
         width: 100%;
     }
@@ -212,38 +204,18 @@
     /*Footer Section*/
 
     .footer-sec span {
-       display: block;
+        display: block;
     }
 }
 
 /* Media Query 600px */
 
 @media (min-width: 600px) {
-    /*Header Section*/
 
-    .hed-col2 ul {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .hed-col2 li {
-        padding: 10px 10px;
-    }
-
-    #burger {
-        display: none;
-    }
-
-    .nav a {
-        font-size: 18px;
-    }
-
-    .nav li {
-        display: block;
-    }
     /*Home section */
     .home-row {
         display: flex;
+        padding: 120px 0;
     }
 
     .home-col1 {
@@ -251,16 +223,21 @@
     }
 
     .home-col1 h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
-    .home-col1 h3 {
-        font-size: 18px;
+    .home-col1 .multi-text {
+        font-size: 40px;
+    }
+
+    .home-col1 span {
+        font-size: 40px;
     }
 
     .home-col2 {
         width: 100%;
         padding: 30px 0;
+        margin: 0;
     }
 
     .home-col2 button {
@@ -271,11 +248,19 @@
         justify-content: center;
         align-items: center;
     }
-    
+
+    .home-col2 a span {
+        font-size: 30px;
+    }
+
     .home-col3 {
         width: 100%;
         display: flex;
         justify-content: end;
+    }
+
+    .home-col3 a {
+        font-size: 30px;
     }
 
     /*About Section*/
@@ -355,7 +340,7 @@
     #v-pills-tab {
         width: 100%;
     }
-    
+
     #v-pills-tabContent {
         width: 100%;
     }
@@ -395,30 +380,18 @@
     /*Footer Section*/
 
     .footer-sec span {
-       display: inline;
+        display: inline;
     }
 }
 
 /* Media Query 1020px */
 
 @media (min-width: 1020px) {
-    /* Header Section */
 
-    .hed-col2 ul {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .hed-col2 li {
-        padding: 10px 20px;
-    }
-
-    #burger {
-        display: none;
-    }
     /*Home section */
     .home-row {
         display: flex;
+        padding: 200px 0;
     }
 
     .home-col1 {
@@ -429,6 +402,10 @@
     .home-col1 h1 {
         font-size: 26px;
         text-align: left;
+    }
+
+    .home-col1 .multi-text {
+        font-size: 60px;
     }
 
     .home-col1 h3 {
@@ -451,7 +428,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .home-col3 {
         width: 100%;
         display: flex;
@@ -534,7 +511,7 @@
     #v-pills-tab {
         width: 30%;
     }
-    
+
     #v-pills-tabContent {
         width: 67%;
     }
@@ -625,6 +602,6 @@
     /*Footer Section*/
 
     .footer-sec span {
-       display: inline;
+        display: inline;
     }
 }
