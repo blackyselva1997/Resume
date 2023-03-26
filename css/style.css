@@ -648,7 +648,7 @@ circle:nth-child(2) {
 }
 
 .port-col {
-    width: 33.3%;
+    width: 100%;
     position: relative;
 }
 
@@ -698,7 +698,7 @@ circle:nth-child(2) {
 }
 
 #v-pills-tabContent {
-    width: 100%;
+    width: 80%;
 }
 
 #v-pills-home {
@@ -710,14 +710,9 @@ circle:nth-child(2) {
 
 .port-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px 0 0 0;
-}
-
-.port-col {
-    width: 100% !important;
 }
 
 .port-box1 {
