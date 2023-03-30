@@ -644,11 +644,37 @@ circle:nth-child(2) {
 
 .port-row {
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.nav {
+    width: 30%;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav li {
+    width: 100%;
+}
+
+.nav li button {
+    width: 100%;
+    color: #fff !important;
+    font-size: 22px !important;
+}
+
+.tab-content {
+    width: 70%;
 }
 
 .port-col {
-    width: 100%;
+    width: 30.3%;
+    overflow: hidden;
     position: relative;
 }
 
@@ -739,14 +765,26 @@ circle:nth-child(2) {
     opacity: 0;
     position: absolute;
     top: 0;
-    font-size: 30px;
-    background-color: #6c757d60;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #00000091;
     color: var(--secondary);
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.port-link h3,p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.port-link a {
+    color: var(--primary);
+    font-size: 20px;
 }
 
 #project {
@@ -918,6 +956,14 @@ iconify-icon:hover {
 
 .port-a a {
     color: #fff;
+}
+
+.tab-content>.active {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 /*Contact Section*/

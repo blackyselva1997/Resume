@@ -130,6 +130,10 @@
         padding: 20px 0;
     }
 
+    .port-flex {
+        flex-wrap: wrap;
+    }
+
     #v-pills-tab {
         width: 100%;
     }
@@ -140,6 +144,15 @@
 
     #v-pills-home {
         display: block;
+    }
+
+    .port-link {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .port-link h3,a {
+        font-size: 30px;
     }
 
     .port-a {
@@ -186,6 +199,14 @@
 
     #port-close2 {
         font-size: 18px;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .tab-content {
+        width: 100%;
     }
 
     /*Contact Section*/
@@ -337,6 +358,10 @@
         padding: 20px 0;
     }
 
+    .port-flex {
+        flex-wrap: wrap;
+    }
+
     #v-pills-tab {
         width: 100%;
     }
@@ -347,6 +372,15 @@
 
     #v-pills-home {
         display: block;
+    }
+
+    .port-link {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .port-link h3,a {
+        font-size: 40px;
     }
 
     .port-a {
@@ -365,6 +399,14 @@
         font-size: 20px;
         top: 30%;
         left: 5%;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .tab-content {
+        width: 100%;
     }
 
     /*Contact Section*/
@@ -433,6 +475,10 @@
         width: 100%;
         display: flex;
         justify-content: end;
+    }
+
+    .home-col3 a {
+        font-size: 40px;
     }
 
     /*About Section*/
@@ -504,7 +550,7 @@
     }
 
     .port-col {
-        width: 100%;
+        width: 30.3%;
         padding: 20px 0;
     }
 
@@ -513,11 +559,16 @@
     }
 
     #v-pills-tabContent {
-        width: 80%;
+        width: 67%;
     }
 
-    #v-pills-home {
-        display: flex;
+    .port-link {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .port-link h3 {
+        font-size: 25px;
     }
 
     .port-a {
@@ -572,6 +623,14 @@
 
     #port-close2 {
         font-size: 30px;
+    }
+
+    .nav {
+        width: 30%;
+    }
+
+    .tab-content {
+        width: 70%;
     }
 
     /*Contact Section*/
