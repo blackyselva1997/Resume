@@ -697,6 +697,7 @@ circle:nth-child(2) {
     width: 100%;
     position: relative;
     padding: 10px 0;
+    margin-bottom: 60px;
 }
 
 .port-con h1::after {
@@ -743,6 +744,7 @@ circle:nth-child(2) {
 
 .port-box1 {
     position: relative;
+    width: 100%;
 }
 
 .port-box1:hover .port-link {
@@ -969,7 +971,7 @@ iconify-icon:hover {
 /*Contact Section*/
 
 .con-sec {
-    /* background: #fff; */
+    background-color: #000;
 }
 
 .con-con {
@@ -994,7 +996,7 @@ iconify-icon:hover {
     font-weight: 700;
     font-size: 25px;
     width: 100%;
-    color: #4e4e4e;
+    color: var(--primary);
     position: relative;
     padding: 10px 0;
 }
@@ -1003,7 +1005,7 @@ iconify-icon:hover {
     content: "";
     width: 90px;
     height: 2px;
-    background-color: #9d9d9d;
+    background-color: #fff;
     bottom: 0;
     left: calc(50% - 45px);
     position: absolute;
@@ -1011,7 +1013,19 @@ iconify-icon:hover {
 
 .con-box {
     width: 100%;
+}
 
+.con-box:hover {
+    background: linear-gradient(#00000086,#00000086),url("img/click\ Galaxy\ Wallpaper\ Purple\ image\ and\ save\ image\ as\ click\ save.jpg");
+    background-size: cover;
+}
+
+.con-box:hover .con-bar p {
+    color: #fff;
+}
+
+.con-box:hover .con-bar h3 {
+    color: var(--primary);
 }
 
 .con-bar {
@@ -1019,7 +1033,7 @@ iconify-icon:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 0 0 5px 0 #6c757d;
+    box-shadow: 0 0 5px 0 var(--BG-primary);
     padding: 20px;
     border-radius: 10px;
 }
@@ -1031,7 +1045,7 @@ p {
     text-align: center;
 }
 
-.con-bar:hover {
+.con-icon a:hover {
     cursor: pointer;
 }
 
@@ -1065,15 +1079,18 @@ p {
 /*Footer Section*/
 
 .footer-sec {
-    background-color: #d3d7dd;
+    background-color: #000;
     padding: 10px 0;
+    border-top: 1px solid #3f3e3eb4;
 }
 
 .footer-sec h5 {
     text-align: center;
-    color: #4e4e4e;
+    color: #fff;
+    font-size: 15px;
 }
 
 .footer-sec span {
-    color: #95a0f1;
+    color: var(--primary);
+    font-size: 20px;
 }
