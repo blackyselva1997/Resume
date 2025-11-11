@@ -16,7 +16,7 @@
 }
 
 body {
-    
+
     letter-spacing: 0.3mm;
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 .about-con:hover {
-    background: linear-gradient(#000000d4,#000000d4),url("img/939435.webp");
+    background: linear-gradient(#000000d4, #000000d4), url("img/939435.webp");
 }
 
 .about-con:hover span h2 {
@@ -753,7 +753,8 @@ circle:nth-child(2) {
     align-items: center;
 }
 
-.port-link h3,p {
+.port-link h3,
+p {
     color: #fff;
     font-size: 20px;
 }
@@ -990,7 +991,7 @@ iconify-icon:hover {
 }
 
 .con-box:hover {
-    background: linear-gradient(#00000086,#00000086),url("img/click\ Galaxy\ Wallpaper\ Purple\ image\ and\ save\ image\ as\ click\ save.jpg");
+    background: linear-gradient(#00000086, #00000086), url("img/click\ Galaxy\ Wallpaper\ Purple\ image\ and\ save\ image\ as\ click\ save.jpg");
     background-size: cover;
 }
 
